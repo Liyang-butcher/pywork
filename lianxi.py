@@ -58,9 +58,48 @@
 # print(xx)
 
 #字典
-a = {"name":"李杨","age":"18"}
-a["xinq"] = "喔嚯"
-print(a.get("xinq"))
+# a = {"name":"李杨","age":"18"}
+# a["xinq"] = "喔嚯"
+# del a["age"]
+# print(a.get("xinq"))
+
+
+# a = 20
+# if a > 18:
+#     print("已成年")
+# else:
+#     print("未成年")
+
+# a = int(input("请输入年龄: "))
+# if a > 18:
+#     print("黄花大闺女")
+# else:
+#     print("钢铁直男")
+
+# b = len(input("请输入字符串: "))
+# if b > 6:
+#     print("内容合格")
+# else:
+#     print("内容不合格")
+
+# a = 16
+# if a > 18:
+#     print("中年")
+# elif a > 16:
+#     print("青年")
+# else:
+#     print("小孩")
+
+
+a = input("请输入账号: ")
+b = input("请输入密码: ")
+if len(a) > 5 and len(a) < 8:
+    if b == "123456":
+        print("登录成功")
+    else:
+        print("登录失败")
+else:
+    print("登陆失败")
 
 
 

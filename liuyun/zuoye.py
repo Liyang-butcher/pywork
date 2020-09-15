@@ -31,13 +31,41 @@
 #         b.append(i)
 # print(b)
 
+# 一个函数有两个参数a、b ，a是列表，b是一个数字，找出a列表中两数之和等于b，打印出这些数
 
+# a=[1,1,2,2,3,3,4,4,5,6,6,7,8,9]
+# b=9
+# answer=[]
+# for x in a:
+#     if x<=b/2:
+#         y=b-x
+#     if y in a :
+#         answer.append((x,y))
+# print(answer)
 
+# 给你一个包含n个整数的数组a，判断a中是否存在三个元素a,b,c,使得a+b+c=0,请找出满足条件的不重复三元组
+# a = [-1,-2,-3,0,1,2,3]
+# b = 0
+# c = []
+# for i in a:
+#     if i <= b/3:
+#         y = b - i
+#         a.remove(i)
+#         for x in a:
+#             if x <= y:
+#                 z = y - x
+#                 if z in a:
+#                     c.append((i,x,z))
+# print(c)
 
-
-
-
-
+a = [1,2,3,4,5,6,7,8]
+for i in a:
+    if i < 8:
+        a.remove(i)
+    print(a)
+#         for x in a:
+#             b.append(x)
+# print(b)
 
 
 

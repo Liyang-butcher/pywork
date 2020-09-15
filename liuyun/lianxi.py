@@ -62,13 +62,13 @@
 # print(i)
 # print(a)
 
-a = [1,3]
-c = ["da"]
-d = [4,5]
-a = a + c + d
-# a.extend(c)
-# a.extend(d)
-print(a)
+# a = [1,3]
+# c = ["da"]
+# d = [4,5]
+# a = a + c + d
+# # a.extend(c)
+# # a.extend(d)
+# print(a)
 
 
 #字典
@@ -167,25 +167,25 @@ print(a)
 # # name = {"username":u,"password":p}
 # # b.append(name)
 # # print(b)
-def regist(u,p):
-    b = [{"username":"郭子", "password":"123456"}, {"username":"小玉", "password":"123456"}]
+# def regist(u,p):
+#     b = [{"username":"郭子", "password":"123456"}, {"username":"小玉", "password":"123456"}]
     
-    a = 1
-    for i in b:
-        if u == i.get("username"):
-            print("账号注册失败")
-            break
-        else:
-            if a == len(b):
-                tj = {"username":u,"password":p}
-                b.append(tj)
-                print("账号注册成功")
-                print(b)
-                break
-        a = a + 1
-u = input("请输入注册账号: ")
-p = input("请输入注册密码: ")
-regist(u,p)
+#     a = 1
+#     for i in b:
+#         if u == i.get("username"):
+#             print("账号注册失败")
+#             break
+#         else:
+#             if a == len(b):
+#                 tj = {"username":u,"password":p}
+#                 b.append(tj)
+#                 print("账号注册成功")
+#                 print(b)
+#                 break
+#         a = a + 1
+# u = input("请输入注册账号: ")
+# p = input("请输入注册密码: ")
+# regist(u,p)
 
 # 算法去重题
 # a = ["胡", "张", "王", "夏", "张", "李","胡","钱","孙"]
@@ -204,4 +204,20 @@ regist(u,p)
 # a = jian(s2=8,s1=2)
 # print(a)
 
+# b = []
+# for i in range(1,10):
+#     b.append(i)
+# print(b)
 
+#设置全局变量,除了字符串和整数，列表、字典、集合、类是可以在局部中改全局变量
+# def func1():
+#     global a
+#     a = 1
+#     print "a in func1 is %d" % (a)
+# a = [1,2]
+# def func2():
+#     a[0] = 17
+#     print(a)
+# # func1()
+# func2()
+# print(a)

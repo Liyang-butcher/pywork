@@ -1,0 +1,1 @@
+{'data': {'status': True, 'token': 'da63877cd16ec3b72eab2961nuyuiledb9d1f0f98ecc689', 'userinfo': {'headpic': 'ttt.jpg', 'nickname': '流云社', 'uid': 9047}}, 'msg': '登录成功！', 'status': 200}
